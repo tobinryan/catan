@@ -49,7 +49,7 @@ const maxTilesInRow = 5;
 
   return (
     <div style={{ width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-      <svg width={BOARD_WIDTH} height={BOARD_HEIGHT} viewBox={`0 0 ${BOARD_WIDTH} ${BOARD_HEIGHT}`} style={{ background: "#2b2b2b", border: "2px solid #555" }}>
+      <svg width={BOARD_WIDTH} height={BOARD_HEIGHT} viewBox={`0 0 ${BOARD_WIDTH} ${BOARD_HEIGHT}`} style={{ background: "#0a5ca7", border: "2px solid #555" }}>
         {rows.map((row, rowIndex) => {
           const rowLength = row.length;
           const rowOffsetX = ((maxTilesInRow - rowLength) * HEX_SPACING_X) / 2;

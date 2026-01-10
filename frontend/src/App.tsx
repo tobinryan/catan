@@ -15,7 +15,7 @@ function App() {
 
     return (
       <div>
-        <Board boardTiles={gameState.board.tiles} />
+        <Board boardTiles={gameState.board.tiles} robber={gameState.board.robber} ports={gameState.board.ports} />
       </div>
     );
 }

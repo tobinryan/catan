@@ -21,7 +21,3 @@ class GameState:
             current_player_index=self.current_player_index,
             turn_phase=self.turn_phase
         )
-
-board = generate_standard_board()
-players = [Player(1, "Alice", "red"), Player(2, "Bob", "blue")]
-game_state = GameState(board, players)
